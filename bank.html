@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baap ar Mooooooony!!!</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <h1 class="text-5xl  text-center mt-8 font-semibold">Let's get some <span class="text-lime-400" id="">Moooooooney!</span></h1>
+    </header>
+    <main>
+        <section class="mt-12">
+            <div class="grid grid-cols-3 gap-4 mx-auto w-9/12 text-white ">
+                <div class="bg-green-400 p-5 rounded-xl">
+                    <h3  class=" text-4xl mb-2" >Deposit</h3>
+                    <h1  class=" text-5xl">$ <span id="yourDeposit">00</span></h1>
+                </div>
+                <div class="bg-yellow-400 p-5 rounded-xl">
+                    <h3 class=" text-4xl mb-2" >Withdrow</h3>
+                    <h1 class=" text-5xl">$ <span id="withdrow-total">00</span></h1>
+                </div>
+                <div class="bg-blue-400 p-5 rounded-xl">
+                    <h3 class=" text-4xl mb-2" >Balance</h3>
+                    <h1  class=" text-5xl">$ <span id="currentTotalBalance">1240</span></h1>
+                </div> 
+            </div>
+        </section>
+        <section class="mt-16">
+            <div class="grid grid-cols-2 gap-4 mx-auto w-9/12 ">
+                <div class="bg-cyan-300	 p-5 rounded-xl">
+                    <h3 class=" text-4xl mb-2" >Please Deposit</h3>
+                    <input id="depositField" class="block w-9/12 p-2 mb-4 mt-6 " type="text" name="text"  placeholder="$ Please enter your amount that you wanna deposit">
+                    <button id="btn-deposit" class="px-8 rounded-xl text-2xl font-semibold text-white py-2  bg-rose-400	">Deposit</button>  
+                </div>
+                <div class="bg-violet-400 p-5 rounded-xl">
+                    <h3 class=" text-4xl mb-2" >Please Withdrow</h3>
+                    <input id="withdrow-field" class="block w-9/12 p-2 mb-4 mt-6 " type="text" name="text"  placeholder="$ Please enter your amount that you wanna withdrow">
+                    <button id="btn-withdrow" class="px-8 rounded-xl text-2xl font-semibold text-white py-2  bg-rose-400	">Withdrow</button>
+
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+    <script>
+
+        
+    </script>
+    <script src="js/deposit.js"></script>
+    <script src="js/withdrow.js"></script>
+</body>
+</html>
